@@ -8,6 +8,7 @@ import re
 import string
 import pandas as pd
 
+# clean tweets
 def clean_tweet(text):
     """
     Cleans tweet text by removing mentions, hashtags, URLs, emojis, and punctuation.
